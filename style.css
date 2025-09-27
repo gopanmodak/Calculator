@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #486027;
+    background-color: #A9A9A9;
     
 }
 .calculator{
@@ -15,8 +15,8 @@ body{
 .display{
     height: 15vh;
     width: 98%;
-    background-color: aquamarine;
-    color: rgb(112, 24, 195);
+    background-color: rgb(161, 170, 167);
+    color:(#F0F0F0);
     font-size: 2em;
     text-align: right;
 }
@@ -26,6 +26,7 @@ body{
     gap: 16px;
     background-color: #a7a7b4;
     border-radius: 5px;
+    height: 65vh;
     
 }
 
@@ -47,7 +48,25 @@ body{
     background-color: rgba(97, 6, 6, 0.467) ;
 
 }
+.equal:hover{
+    background-color: rgb(17, 94, 209);
+}
 
 .operator {
     background-color: #d8d8e2;
+}
+
+.ac{
+    background-color: #d7d7f4;
+}
+.ac:hover{
+    background-color: rgb(26, 149, 75);
+}
+
+.del{
+    background-color: #be1ca0;
+}
+
+.del:hover{
+    background-color: rgb(175, 26, 26);
 }
